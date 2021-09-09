@@ -1,4 +1,5 @@
-import React from "react";
+// @ts-ignore
+import * as React from "react";
 import { Text as RNText, TextStyle } from "react-native";
 import Size from "./Size";
 
