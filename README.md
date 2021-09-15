@@ -101,19 +101,20 @@ should work of the example project.
 
 
 
-| Property       |   Type    |  Default  | Description                                                            |
+| Property                   |   Type    |  Default  | Description                                                            |
 | -------------- | :-------: | :-------: | ---------------------------------------------------------------------- |
-| segments       |  array    |   ['first','second','third']   | let you enable the button (must use it for button)                     |
-| selected       |  number   | undefined                              | set your own logic for the button functionality when it is pressed     |
-| height       |  number   | undefined                              | set your own logic for the button functionality when it is pressed     |
-| textFontSize   |  number |  default  | set or override the style object for the button style                  |
-| borderWidth    |  number   | undefined                              | change the button's text                                               |
-| borderColor    |  number   |  default  | set or override the style object for the main container                |
-| borderRadius   |  number |  default  | set or override the style object for the button style                  |
-| selectedSegmentColor    |  color |  default  | set or override the style object for the button style                  |
-| unselectedSegmentsColor |   color   |  default  | set your own component instead of default react-native Image component |
-| selectedTextColor       |  color    |  default  | set or override the style object for the button style                  |
-| unselectedTextColor     |   color   |  default  | set your own component instead of default react-native Image component |
+| segments                   |  array    | ['first','second','third']   | set segmented control's text array                  |
+| selected                   |  number   | undefined | set segmented control's default selected value                         |
+| height                     |  number   | undefined | set segmented control's height                                         |
+| textFontSize               |  number   |.default   | set segmented control's text font size                                     |
+| borderWidth                |  number   | undefined | set segmented control's border with(if u dont wanna border u can pass 0 ) |
+| borderColor                |  number   |  default  | set segmented control's border color                |
+| borderRadius               |  number   |  default  | set segmented control's radius                  |
+| selectedSegmentColor       |   color   |  default  | set selected segment's background color                  |
+| unselectedSegmentsColor    |   color   |  default  | set unselected segment's background color |
+| selectedTextColor          |   color   |  default  | set selected segment's text color |
+| unselectedTextColor        |   color   |  default  | set unselected segment's text color |
+| onChangeSegment            |   function   |  default  | returns when segment change index |
 
 ## Future Plans
 
