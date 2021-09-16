@@ -1,13 +1,19 @@
 {
-  "name": "react-native-custom-segmented-control",
+  "name": "react-native-fully-customizable-segmented-control",
   "version": "1.0.0",
   "description": "Fully customizable segmented control",
   "main": "./index.js",
-  "repository": "",
+  "repository": "https://github.com/2ez4salt/react-native-segmented-control",
   "author": "Talha Salt",
   "license": "MIT",
   "keywords": [
-
+    "react",
+    "native",
+    "segmented",
+    "segment",
+    "full",
+    "custom",
+    "control"
   ],
   "scripts": {
     "build": "cd lib && tsc && cp ../package.json ../build/dist/ && Echo Build completed!",
