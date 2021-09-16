@@ -104,17 +104,17 @@ should work of the example project.
 | Property                   |   Type    |  Default  | Description                                                            |
 | -------------- | :-------: | :-------: | ---------------------------------------------------------------------- |
 | segments                   |  array    | ['first','second','third']   | set segmented control's text array                  |
-| selected                   |  number   | undefined | set segmented control's default selected value                         |
-| height                     |  number   | undefined | set segmented control's height                                         |
-| textFontSize               |  number   |.default   | set segmented control's text font size                                     |
-| borderWidth                |  number   | undefined | set segmented control's border with(if u dont wanna border u can pass 0 ) |
-| borderColor                |  number   |  default  | set segmented control's border color                |
-| borderRadius               |  number   |  default  | set segmented control's radius                  |
-| selectedSegmentColor       |   color   |  default  | set selected segment's background color                  |
-| unselectedSegmentsColor    |   color   |  default  | set unselected segment's background color |
-| selectedTextColor          |   color   |  default  | set selected segment's text color |
-| unselectedTextColor        |   color   |  default  | set unselected segment's text color |
-| onChangeSegment            |   function   |  default  | returns when segment change index |
+| selected                   |  number   | 0 | set segmented control's default selected value                         |
+| height                     |  number   | 50 | set segmented control's height                                         |
+| textFontSize               |  number   | 20   | set segmented control's text font size                                     |
+| borderWidth                |  number   | 1 | set segmented control's border with(if u dont wanna border u can pass 0 ) |
+| borderColor                |  string   |  "#9d9d9d"  | set segmented control's border color                |
+| borderRadius               |  number   |  15  | set segmented control's radius                  |
+| selectedSegmentColor       |   string   |  "#0082ff"  | set selected segment's background color                  |
+| unselectedSegmentsColor    |   string   |  "#e7e5e5"  | set unselected segment's background color |
+| selectedTextColor          |   string   |  "#fff"  | set selected segment's text color |
+| unselectedTextColor        |   string   |  "#000"  | set unselected segment's text color |
+| onChangeSegment            |   function   |  null  | returns when segment change index |
 
 ## Future Plans
 
