@@ -1,4 +1,7 @@
 # Installation
+![Alt Text](assets/csc.gif)
+
+
 
 Add the dependency:
 
