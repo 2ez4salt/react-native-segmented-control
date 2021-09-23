@@ -122,7 +122,7 @@ should work of the example project.
 ## Future Plans
 
 - [x] ~~LICENSE~~
-- [ ] Write an article about the lib on Medium
+- [ ] Animations
 
 # Change Log
 
@@ -134,4 +134,4 @@ Talha Salt, me@talha.io
 
 ## License
 
-React Native Typescript Library Starter is available under the MIT license. See the LICENSE file for more info.
+This library is available under the MIT license. See the LICENSE file for more info.
