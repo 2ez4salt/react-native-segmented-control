@@ -1,8 +1,5 @@
-# Installation
 ![Alt Text](assets/csc.gif)
-
-
-
+# Installation
 Add the dependency:
 
 ```bash
