@@ -4,8 +4,10 @@
   "description": "Fully customizable segmented control",
   "main": "./index.js",
   "repository": "https://github.com/2ez4salt/react-native-segmented-control",
+  "bugs": "https://github.com/2ez4salt/react-native-segmented-control/issues",
   "author": "Talha Salt",
   "license": "MIT",
+  "homepage": "https://talha.io",
   "keywords": [
     "react",
     "native",
@@ -13,7 +15,9 @@
     "segment",
     "full",
     "custom",
-    "control"
+    "control",
+    "ios",
+    "android"
   ],
   "scripts": {
     "build": "cd lib && tsc && cp ../package.json ../build/dist/ && Echo Build completed!",
