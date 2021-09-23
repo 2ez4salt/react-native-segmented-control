@@ -3,7 +3,7 @@
 Add the dependency:
 
 ```bash
-npm i react-native-typescript-library-starter
+npm i react-native-fully-customizable-segmented-control
 ```
 
 ## Peer Dependencies
@@ -20,7 +20,7 @@ npm i react-native-typescript-library-starter
 ## Import
 
 ```jsx
-import MyComponent from "react-native-typescript-library-starter";
+import {CustomSegmentedControl} from "react-native-fully-customizable-segmented-control";
 ```
 
 ## Fundamental Usage
